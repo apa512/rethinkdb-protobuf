@@ -1,4 +1,4 @@
-(defproject rethinkdb-protobuf "0.2.0"
+(defproject rethinkdb-protobuf "0.3.0"
   :description "Protobufs for RethinkDB version 1.16.x"
   :url "http://github.com/apa512/clj-rethinkdb"
   :license {:name "Eclipse Public License"
