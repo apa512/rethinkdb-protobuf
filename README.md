@@ -1,10 +1,12 @@
 # rethinkdb-protobuf
 
-A Clojure library designed to ... well, that part is up to you.
+This Clojure library generates protocol buffers for use in Java or Clojure applications. The versions of this library correspond to the released versions of RethinkDB's protocol buffer. 
 
 ## Usage
 
-FIXME
+```
+lein protobuf
+```
 
 ## License
 
