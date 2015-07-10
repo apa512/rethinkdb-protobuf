@@ -2,6 +2,8 @@
 
 This Clojure library generates protocol buffers for use in Java or Clojure applications. The versions of this library correspond to the released versions of RethinkDB's protocol buffer. 
 
+[![Clojars Project](http://clojars.org/rethinkdb-protobuf/latest-version.svg)](http://clojars.org/rethinkdb-protobuf)
+
 ## Usage
 
 ```
