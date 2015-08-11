@@ -10,6 +10,12 @@ This Clojure library generates protocol buffers for use in Java or Clojure appli
 lein protobuf
 ```
 
+## Deploying
+
+```
+lein release
+```
+
 ## License
 
 Copyright © 2014 FIXME
