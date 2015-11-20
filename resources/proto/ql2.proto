@@ -388,7 +388,7 @@ message Term {
         // Return an array containing the keys of the object.
         KEYS = 94; // OBJECT -> ARRAY
         // Return an array containing the values of the object.
-        VALUES = 186; // OBJECT -> ARRAY
+        VALUESX = 186; // OBJECT -> ARRAY // TODO switch back to `VALUES`. See https://github.com/rethinkdb/rethinkdb/issues/5121 for more details on this problem.
         // Creates an object
         OBJECT = 143; // STRING, DATUM, ... -> OBJECT
         // Check whether an object contains all the specified fields,
