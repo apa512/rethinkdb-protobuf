@@ -39,7 +39,7 @@
 //   token to get more results from the original query.
 ////////////////////////////////////////////////////////////////////////////////
 
-package rethinkdb;
+package rethinkdb; // clj-rethinkdb change
 
 message VersionDummy { // We need to wrap it like this for some
                        // non-conforming protobuf libraries
@@ -388,7 +388,7 @@ message Term {
         // Return an array containing the keys of the object.
         KEYS = 94; // OBJECT -> ARRAY
         // Return an array containing the values of the object.
-        VALUESX = 186; // OBJECT -> ARRAY // TODO switch back to `VALUES`. See https://github.com/rethinkdb/rethinkdb/issues/5121 for more details on this problem.
+        VALUESX = 186; // OBJECT -> ARRAY // cljrethinkdb change: See https://github.com/rethinkdb/rethinkdb/issues/5121 for more details.
         // Creates an object
         OBJECT = 143; // STRING, DATUM, ... -> OBJECT
         // Check whether an object contains all the specified fields,
